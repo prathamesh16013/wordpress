@@ -1,5 +1,5 @@
 # wordpress
-we can create the wordpress to use of docker first we can 
+we can create the wordpress to use of docker first we can two files one is mysql docker file and another one is wordpress docker file then exicute the files.
 docker build -t custom_mysql_image .
 docker build -t custom_wp_img .
 docker run --name mysql_container custom_mysql_image(when you dont give any extra parameters and use paramenters as in dcokerfile)
